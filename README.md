@@ -1,3 +1,3 @@
 # JavaScipt
 
-Use of JavaScript const and letto get the total pricing
+Use of JavaScript const and let to get the total pricing
