@@ -6,14 +6,22 @@
         <body>
 <p id="pricing"></p>
 <p id = "demo"></p>
+<p id = "function"></p>
 <script>
-    // adding a string and a number
+
+// adding a string and a number
+// Calculate the product of two numbers, and return the result:
+function numbers(x,y){
+    return x*y;
+
+}
     let x = 3 + 4 + "BMW";
     const price1 = 30;
     const price2 = 50;
     let total = price1 + price2;
     document.getElementById("pricing").innerHTML="This is the price:" +total;
     document.getElementById("demo").innerHTML = x;
+    document.getElementById("function").innerHTML=numbers(5,3);
 </script>
         </body>
    
